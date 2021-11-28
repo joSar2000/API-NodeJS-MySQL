@@ -1,0 +1,28 @@
+{
+  "name": "API-NodeJS-MySQL",
+  "version": "1.0.0",
+  "description": "Desarrollo de un API Rest, utilizando MySQL como base de datos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node API-NodeJS-MySQL/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joSar2000/API-NodeJS-MySQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joSar2000/API-NodeJS-MySQL/issues"
+  },
+  "homepage": "https://github.com/joSar2000/API-NodeJS-MySQL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
